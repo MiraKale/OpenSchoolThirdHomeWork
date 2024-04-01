@@ -86,3 +86,227 @@
 2024-04-01T00:07:20.706+0300 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-01T00:07:20.708+0300 INFO HikariPool-1 - Shutdown initiated...
 2024-04-01T00:07:20.717+0300 INFO HikariPool-1 - Shutdown completed.
+2024-04-01T15:21:52.432+0300 INFO Starting OpenSchoolThirdHomeWorkApplication using Java 21.0.1 with PID 12184 (C:\Users\roman_sh\IdeaProjects\OpenSchoolThirdHomeWork\target\classes started by roman_sh in C:\Users\roman_sh\IdeaProjects\OpenSchoolThirdHomeWork)
+2024-04-01T15:21:52.439+0300 INFO No active profile set, falling back to 1 default profile: "default"
+2024-04-01T15:21:53.002+0300 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T15:21:53.049+0300 INFO Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2024-04-01T15:21:53.520+0300 INFO Tomcat initialized with port 8080 (http)
+2024-04-01T15:21:53.530+0300 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01T15:21:53.532+0300 INFO Starting service [Tomcat]
+2024-04-01T15:21:53.532+0300 INFO Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T15:21:53.577+0300 INFO Initializing Spring embedded WebApplicationContext
+2024-04-01T15:21:53.578+0300 INFO Root WebApplicationContext: initialization completed in 1109 ms
+2024-04-01T15:21:53.711+0300 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01T15:21:53.767+0300 INFO HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01T15:21:53.802+0300 INFO HHH000026: Second-level cache disabled
+2024-04-01T15:21:54.011+0300 INFO No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T15:21:54.037+0300 INFO HikariPool-1 - Starting...
+2024-04-01T15:21:54.168+0300 INFO HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35524549
+2024-04-01T15:21:54.170+0300 INFO HikariPool-1 - Start completed.
+2024-04-01T15:21:54.199+0300 WARN HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-01T15:21:55.001+0300 INFO HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01T15:21:55.021+0300 WARN SQL Warning Code: 0, SQLState: 00000
+2024-04-01T15:21:55.021+0300 WARN relation "orders" does not exist, skipping
+2024-04-01T15:21:55.022+0300 WARN SQL Warning Code: 0, SQLState: 00000
+2024-04-01T15:21:55.022+0300 WARN table "orders" does not exist, skipping
+2024-04-01T15:21:55.023+0300 WARN SQL Warning Code: 0, SQLState: 00000
+2024-04-01T15:21:55.024+0300 WARN table "users" does not exist, skipping
+2024-04-01T15:21:55.075+0300 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T15:21:55.283+0300 INFO Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-01T15:21:55.694+0300 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T15:21:55.967+0300 INFO Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01T15:21:55.982+0300 INFO Tomcat started on port 8080 (http) with context path ''
+2024-04-01T15:21:55.988+0300 INFO Started OpenSchoolThirdHomeWorkApplication in 3.815 seconds (process running for 6.283)
+2024-04-01T15:23:15.470+0300 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T15:23:15.470+0300 INFO Initializing Servlet 'dispatcherServlet'
+2024-04-01T15:23:15.471+0300 INFO Completed initialization in 1 ms
+2024-04-01T15:23:15.574+0300 INFO before execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto)), args=[com.example.openschoolthirdhomework.dto.UserDto@446076e]
+2024-04-01T15:23:15.610+0300 INFO after execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto))
+2024-04-01T15:24:10.173+0300 INFO before execution(List com.example.openschoolthirdhomework.service.OrderService.findAll()), args=[]
+2024-04-01T15:24:10.233+0300 INFO after execution(List com.example.openschoolthirdhomework.service.OrderService.findAll())
+2024-04-01T15:29:50.647+0300 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T15:29:50.649+0300 INFO HikariPool-1 - Shutdown initiated...
+2024-04-01T15:29:50.652+0300 INFO HikariPool-1 - Shutdown completed.
+2024-04-01T15:29:55.825+0300 INFO Starting OpenSchoolThirdHomeWorkApplication using Java 21.0.1 with PID 8884 (C:\Users\roman_sh\IdeaProjects\OpenSchoolThirdHomeWork\target\classes started by roman_sh in C:\Users\roman_sh\IdeaProjects\OpenSchoolThirdHomeWork)
+2024-04-01T15:29:55.832+0300 INFO No active profile set, falling back to 1 default profile: "default"
+2024-04-01T15:29:56.307+0300 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T15:29:56.352+0300 INFO Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-04-01T15:29:56.812+0300 INFO Tomcat initialized with port 8080 (http)
+2024-04-01T15:29:56.822+0300 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01T15:29:56.824+0300 INFO Starting service [Tomcat]
+2024-04-01T15:29:56.824+0300 INFO Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T15:29:56.868+0300 INFO Initializing Spring embedded WebApplicationContext
+2024-04-01T15:29:56.868+0300 INFO Root WebApplicationContext: initialization completed in 997 ms
+2024-04-01T15:29:57.001+0300 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01T15:29:57.053+0300 INFO HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01T15:29:57.087+0300 INFO HHH000026: Second-level cache disabled
+2024-04-01T15:29:57.288+0300 INFO No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T15:29:57.315+0300 INFO HikariPool-1 - Starting...
+2024-04-01T15:29:57.435+0300 INFO HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2aa07d80
+2024-04-01T15:29:57.436+0300 INFO HikariPool-1 - Start completed.
+2024-04-01T15:29:57.464+0300 WARN HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-01T15:29:58.258+0300 INFO HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01T15:29:58.347+0300 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T15:29:58.545+0300 INFO Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-01T15:29:58.956+0300 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T15:29:59.228+0300 INFO Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01T15:29:59.242+0300 INFO Tomcat started on port 8080 (http) with context path ''
+2024-04-01T15:29:59.248+0300 INFO Started OpenSchoolThirdHomeWorkApplication in 3.681 seconds (process running for 4.547)
+2024-04-01T15:30:18.949+0300 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T15:30:18.949+0300 INFO Initializing Servlet 'dispatcherServlet'
+2024-04-01T15:30:18.950+0300 INFO Completed initialization in 1 ms
+2024-04-01T15:30:19.051+0300 INFO before execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto)), args=[ com.example.openschoolthirdhomework.dto.UserDto@5eb267dc ]
+2024-04-01T15:30:19.085+0300 INFO after execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto))
+2024-04-01T15:30:38.643+0300 INFO before execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto)), args=[ com.example.openschoolthirdhomework.dto.UserDto@7157d391 ]
+2024-04-01T15:30:38.650+0300 WARN SQL Error: 0, SQLState: 23505
+2024-04-01T15:30:38.650+0300 ERROR ERROR: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ree) already exists.
+2024-04-01T15:30:38.656+0300 INFO after execution(UserDto com.example.openschoolthirdhomework.service.UserService.create(UserDto))
+2024-04-01T15:30:38.662+0300 ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ree) already exists.] [insert into users (email,name) values (?,?)]; SQL [insert into users (email,name) values (?,?)]; constraint [users_email_key]] with root cause
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ree) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.5.jar:6.1.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy134.persist(Unknown Source) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.5.jar:6.1.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy134.persist(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:618) ~[spring-data-jpa-3.2.4.jar:3.2.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.2.4.jar:3.2.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.2.4.jar:3.2.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-6.1.5.jar:6.1.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy139.save(Unknown Source) ~[?:?]
+	at com.example.openschoolthirdhomework.service.UserService.create(UserService.java:36) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717) ~[spring-aop-6.1.5.jar:6.1.5]
+	at com.example.openschoolthirdhomework.service.UserService$$SpringCGLIB$$0.create(<generated>) ~[classes/:?]
+	at com.example.openschoolthirdhomework.controller.UserController.create(UserController.java:27) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-04-01T15:31:14.652+0300 INFO before execution(List com.example.openschoolthirdhomework.service.UserService.findAll()), args=[  ]
+2024-04-01T15:31:14.724+0300 INFO after execution(List com.example.openschoolthirdhomework.service.UserService.findAll())
+2024-04-01T15:31:14.724+0300 INFO List com.example.openschoolthirdhomework.service.UserService.findAll() выполнен за 72 мс
+2024-04-01T16:24:35.858+0300 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s498ms918µs900ns).
+2024-04-01T17:42:52.993+0300 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m16s88ms453µs800ns).
